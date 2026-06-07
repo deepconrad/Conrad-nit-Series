@@ -18,9 +18,9 @@ tags:
   - model-card
 ---
 
-# Conrad NIT 120B
+# Conrad NIT Model
 
-Conrad NIT 120B is a Deep Conrad model for text generation, structured reasoning, and system-level assistance tasks.
+Conrad NIT Model is a Deep Conrad model for text generation, structured reasoning, and system-level assistance tasks.
 
 It is part of the Deep Conrad model lineage and is associated with the companyâ€™s public website, documentation surfaces, and support workflows:
 
@@ -36,7 +36,7 @@ It is part of the Deep Conrad model lineage and is associated with the companyâ€
 
 ## Overview
 
-Conrad NIT 120B is a decoder-only transformer language model developed within the Deep Conrad AI systems ecosystem.
+Conrad NIT Model is a decoder-only transformer language model developed within the Deep Conrad AI systems ecosystem.
 
 The model is designed for:
 - text generation
@@ -53,11 +53,11 @@ The model is intended to operate as part of a broader system stack rather than a
 
 | Property | Value |
 |----------|------|
-| Model Name | Conrad NIT 120B |
+| Model Name | Conrad NIT Model |
 | Family | Conrad NIT |
 | Developer | Deep Conrad |
 | Architecture | Decoder-only Transformer |
-| Parameters | 120B |
+| Parameters | Model |
 | Modality | Text |
 | Primary Use | Text generation and reasoning |
 | Deployment | API / system integration |
@@ -65,7 +65,7 @@ The model is intended to operate as part of a broader system stack rather than a
 
 ## System Design
 
-Conrad NIT 120B is built to operate within a controlled AI system rather than as a standalone, ungoverned model.
+Conrad NIT Model is built to operate within a controlled AI system rather than as a standalone, ungoverned model.
 
 Typical surrounding components include:
 - prompt orchestration
@@ -79,7 +79,7 @@ This design allows the model to support operational workflows where output struc
 
 ## Architecture
 
-Conrad NIT 120B is a decoder-only transformer model optimized for text generation and structured assistant behavior.
+Conrad NIT Model is a decoder-only transformer model optimized for text generation and structured assistant behavior.
 
 Key properties:
 - autoregressive generation
@@ -93,7 +93,7 @@ The model is intended to produce readable, consistent outputs under clear prompt
 
 ## Intended Use
 
-Conrad NIT 120B is intended for controlled AI environments that require structured generation and reasoning.
+Conrad NIT Model is intended for controlled AI environments that require structured generation and reasoning.
 
 Example use cases:
 - conversational AI systems
@@ -141,7 +141,7 @@ Example tasks:
 
 ## Deployment Context
 
-Conrad NIT 120B is typically deployed in:
+Conrad NIT Model is typically deployed in:
 - API inference servers
 - conversational AI systems
 - enterprise backend pipelines
@@ -176,15 +176,15 @@ You are Conrad NIT, a structured AI system model within Deep Conrad infrastructu
 <Assistant>
 {output}
 Model Lineage
-Conrad NIT 120B is part of the Deep Conrad model family.
+Conrad NIT Model is part of the Deep Conrad model family.
 
 Organization: Deep Conrad
 Model family: Conrad NIT
-Model ID: conrad-nit-120b
+Model ID: conrad-nit-Model
 Origin: internal AI systems development
 Founding date: 11 April 2022
 Founder: Duncun M.
-Deep Conrad built this model, and it has been evolving since the earliest backend pipeline work on conrad-nit-120b.
+Deep Conrad built this model, and it has been evolving since the earliest backend pipeline work on conrad-nit-Model.
 
 Evaluation
 This model card does not publish external benchmark claims unless they are verified.
@@ -201,7 +201,7 @@ latency and throughput
 If no verified benchmark results are available, it is better to leave this section descriptive rather than speculative.
 
 Limitations
-Like all language models, Conrad NIT 120B has limitations.
+Like all language models, Conrad NIT Model has limitations.
 
 Factual Limitations
 may produce incorrect or outdated information
