@@ -19,7 +19,7 @@ tags:
 ---
 
 # Conrad NIT Model
-
+ Download the model at HungingFace https://huggingface.co/deepconradlabs/conrad-nit-5.1-8B/tree/main
 Conrad NIT Model is a Deep Conrad model for text generation, structured reasoning, and system-level assistance tasks.
 
 It is part of the Deep Conrad model lineage and is associated with the company’s public website, documentation surfaces, and support workflows:
