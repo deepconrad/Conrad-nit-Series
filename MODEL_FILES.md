@@ -1,6 +1,6 @@
 # Model file checklist
 
-This repository currently publishes the model card for `conrad-nit-120b`.
+This repository currently publishes the model card for `conrad-nit-8b`.
 
 To make the repository loadable in common Transformers tooling, add the following files when they are available:
 
