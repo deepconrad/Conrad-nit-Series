@@ -1,0 +1,14 @@
+{
+  "models": [
+    {
+      "id": "conrad-nit-5.1-8b",
+      "name": "Conrad NIT 5.1-8B",
+      "version": "5.1",
+      "parameters": "8B",
+      "architecture": "Decoder-only Transformer",
+      "huggingface_url": "https://huggingface.co/deepconradlabs/conrad-nit-5.1-8B",
+      "description": "The primary model for the NIT series, optimized for structured reasoning and system-level assistance.",
+      "tags": ["reasoning", "instruction-following", "multi-turn"]
+    }
+  ]
+}

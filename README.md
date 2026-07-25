@@ -18,86 +18,41 @@ tags:
   - model-card
 ---
 
-# Conrad NIT Model
- Download the model at HungingFace https://huggingface.co/deepconradlabs/conrad-nit-5.1-8B/tree/main
-Conrad NIT Model is a Deep Conrad model for text generation, structured reasoning, and system-level assistance tasks.
+# Conrad NIT Series Documentation Registry
 
-It is part of the Deep Conrad model lineage and is associated with the company’s public website, documentation surfaces, and support workflows:
+This repository is dedicated to documenting the **Conrad NIT Series** of Large Language Models developed by **Deep Conrad**. 
 
-- Main website: https://trendwaveconnect.com
-- Conrad: https://conrad.trendwaveconnect.com
-- Documentation: https://trendwaveconnect.com/documentation
-- Help: https://trendwaveconnect.com/help
-- Support: https://trendwaveconnect.com/support
-- Status: https://trendwaveconnect.com/status
-- Engineering: https://trendwaveconnect.com/engineering
-- White Paper: https://trendwaveconnect.com/white-paper
-- GitHub: https://github.com/deepconrad
+It serves as a structured registry and documentation generator for the NIT lineage, fetching data from official sources like [Trendwave Connect Docs](https://docs.trendwaveconnect.com/docs).
 
-## Overview
+## Project Structure
 
-Conrad NIT Model is a decoder-only transformer language model developed within the Deep Conrad AI systems ecosystem.
+- `docs/models.json`: The source of truth for all known models in the series.
+- `docs/models/`: Auto-generated Markdown documentation for each LLM.
+- `scripts/conrad_docs.py`: CLI utility for managing the registry and documentation.
 
-The model is designed for:
-- text generation
-- structured reasoning
-- instruction following
-- documentation assistance
-- support triage
-- platform-level workflows
-- internal and enterprise assistant tasks
+## Getting Started
 
-The model is intended to operate as part of a broader system stack rather than as an isolated consumer chatbot. In deployment, it is typically paired with routing, retrieval, safety, validation, and inference infrastructure.
+To get a summary of the current models in the series, run:
 
-## Model Summary
+```bash
+python3 scripts/conrad_docs.py --summary
+```
 
-| Property | Value |
-|----------|------|
-| Model Name | Conrad NIT Model |
-| Family | Conrad NIT |
-| Developer | Deep Conrad |
-| Architecture | Decoder-only Transformer |
-| Parameters | Model |
-| Modality | Text |
-| Primary Use | Text generation and reasoning |
-| Deployment | API / system integration |
-| Context Type | Multi-turn conversational |
+To regenerate the documentation files based on the registry:
 
-## System Design
+```bash
+python3 scripts/conrad_docs.py --generate
+```
 
-Conrad NIT Model is built to operate within a controlled AI system rather than as a standalone, ungoverned model.
+## Known Models
 
-Typical surrounding components include:
-- prompt orchestration
-- retrieval and documentation systems
-- structured output formatting
-- tool routing and API connectors
-- safety and validation layers
-- inference optimization pipelines
+The primary model currently documented is:
+- **Conrad NIT 5.1-8B**: Optimized for structured reasoning and system-level assistance. 
+  - [Hugging Face](https://huggingface.co/deepconradlabs/conrad-nit-5.1-8B/tree/main)
+  - [Documentation](https://trendwaveconnect.com/documentation)
 
-This design allows the model to support operational workflows where output structure, consistency, and controllability matter.
+---
 
-## Architecture
-
-Conrad NIT Model is a decoder-only transformer model optimized for text generation and structured assistant behavior.
-
-Key properties:
-- autoregressive generation
-- instruction-following behavior
-- multi-turn conversation support
-- system prompt conditioning
-- structured output generation
-- stable formatting in constrained workflows
-
-The model is intended to produce readable, consistent outputs under clear prompting and system control.
-
-## Intended Use
-
-Conrad NIT Model is intended for controlled AI environments that require structured generation and reasoning.
-
-Example use cases:
-- conversational AI systems
-- documentation assistants
 - enterprise support systems
 - internal AI tooling
 - structured reasoning pipelines
