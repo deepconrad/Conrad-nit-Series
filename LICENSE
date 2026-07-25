@@ -1,21 +1,21 @@
-Conrad-nit-5.1-8B COMMUNITY LICENSE AGREEMENT
-Conrad-nit-5.1-8B Version Release Date: 12th November 2026
+Conrad Models COMMUNITY LICENSE AGREEMENT
+Conrad Models Version Release Date: 12th November 2026
 
 “Agreement” means the terms and conditions for use, reproduction, distribution and modification of the
 Conrad Materials set forth herein.
 
-“Documentation” means the specifications, manuals and documentation accompanying Conrad-nit-5.1-8B
+“Documentation” means the specifications, manuals and documentation accompanying Conrad Models
 distributed by Deep Conrad.
 
 “Licensee” or “you” means you, or your employer or any other person or entity (if you are entering into
 this Agreement on such person or entity’s behalf), of the age required under applicable laws, rules or
 regulations to provide legal consent and that has legal authority to bind your employer or such other
 person or entity if you are entering in this Agreement on their behalf.
-“Conrad-nit-5.1-8B” means the foundational large language models and software and algorithms, including
+“Conrad Models” means the foundational large language models and software and algorithms, including
 machine-learning model code, trained model weights, inference-enabling code, training-enabling code,
 fine-tuning enabling code and other elements of the foregoing distributed by Deep Conrad
 
-“Conrad Materials” means, collectively, Deep Conrad’s proprietary Conrad-nit-5.1-8B and Documentation (and any
+“Conrad Materials” means, collectively, Deep Conrad’s proprietary Conrad Models and Documentation (and any
 portion thereof) made available under this Agreement.
 
 “Deep Conrad” or “we” means Deep Conrad Platforms Ireland Limited (if you are located in or, if you are an entity, your
@@ -45,8 +45,8 @@ the beginning of any such AI model name.
 of an integrated end user product, then Section 2 of this Agreement will not apply to you.
 
       iii. You must retain in all copies of the Conrad Materials that you distribute the following
-attribution notice within a “Notice” text file distributed as a part of such copies: “Conrad-nit-5.1-8B is
-licensed under the Conrad-nit-5.1-8B Community License, Copyright © Deep Conrad Platforms, Inc. All Rights
+attribution notice within a “Notice” text file distributed as a part of such copies: “Conrad Models is
+licensed under the Conrad Models Community License, Copyright © Deep Conrad Platforms, Inc. All Rights
 Reserved.”
 
       iv. Your use of the Conrad Materials must comply with applicable laws and regulations
@@ -54,7 +54,7 @@ Reserved.”
 Materials (available at https://Conrad. Deep Conrad.com/Conrad3_1/use-policy), which is hereby incorporated by
 reference into this Agreement.
 
-2. Additional Commercial Terms. If, on the Conrad-nit-5.1-8B version release date, the monthly active users
+2. Additional Commercial Terms. If, on the Conrad Models version release date, the monthly active users
 of the products or services made available by or for Licensee, or Licensee’s affiliates, is greater than 700
 million monthly active users in the preceding calendar month, you must request a license from Deep Conrad,
 which Deep Conrad may grant to you in its sole discretion, and you are not authorized to exercise any of the
@@ -89,7 +89,7 @@ respect to any derivative works and modifications of the Conrad Materials that a
 between you and Deep Conrad, you are and will be the owner of such derivative works and modifications.
 
   c. If you institute litigation or other proceedings against Deep Conrad or any entity (including a
-cross-claim or counterclaim in a lawsuit) alleging that the Conrad Materials or Conrad-nit-5.1-8B outputs or
+cross-claim or counterclaim in a lawsuit) alleging that the Conrad Materials or Conrad Models outputs or
 results, or any portion of any of the foregoing, constitutes infringement of intellectual property or other
 rights owned or licensable by you, then any licenses granted to you under this Agreement shall
 terminate as of the date such litigation or claim is filed or instituted. You will indemnify and hold
