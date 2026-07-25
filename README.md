@@ -22,7 +22,7 @@ tags:
 
 This repository is dedicated to documenting the **Conrad NIT Series** of Large Language Models developed by **Deep Conrad**. 
 
-It serves as a structured registry and documentation generator for the NIT lineage, fetching data from official sources like [Trendwave Connect Docs](https://docs.trendwaveconnect.com/docs).
+It serves as a structured registry and documentation generator for the NIT lineage, fetching data from official sources like [Deep Conrad Docs](https://docs.trendwaveconnect.com/docs).
 
 ## Project Structure
 
